@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ed1468889.js" crossorigin="anonymous"></script>
+    <title>Welcome</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fas fa-code"></i> DevRegion
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Developers</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="dashboard.html"><i class="fas fa-user"></i>
+                <span class="hide-sm">Dashboard</span></a></li>
+            <li>
+                <a href="login.html"><i class="fas fa-sign-out-alt"></i>
+                <span class="hide-sm">Logout</span></a></li>    
+        </ul>
+    </nav>
+    <section class="container">
+        <a href="posts.html" class="btn">Back To Posts</a>
+        <div class="post bg-white p-1 my-1">
+            <div>
+                <a href="profile.html">
+                    <img class="round-img" src="img/profile.jpg" alt="">
+                        <h4>Woo Joon Han</h4>
+                </a>
+            </div>
+            <div>
+                <p class="my-1">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo assumenda ad labore sapiente officia minima rerum voluptatum pariatur. Aperiam nostrum necessitatibus doloribus qui officiis libero enim placeat tempora harum neque?
+                </p>
+            </div>
+        </div>
+        <div class="post-form">
+            <div class="post-form-header bg-primary">
+                <h3>Leave A Comment</h3>
+            </div>
+            <form class="form my-1">
+                <textarea cols="30" rows="5" placeholder="Comment on this post"></textarea>
+                <input type="submit" value="Submit" class="btn btn-dark my-1">
+            </form>
+            <div class="posts">
+                <div class="post bg-white my-1">
+                    <a href="profile.html">
+                        <img class="round-img" src="img/profile.jpg" alt="">
+                        <h4>Woo Joon Han</h4>
+                    </a>
+                    <div>
+                        <p class="my-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum eius aperiam nemo voluptatum officia, eligendi quas fugiat ullam dolorum obcaecati laborum vel ducimus commodi numquam suscipit accusamus nobis fugit!
+                        </p>
+                        <button class="btn">
+                            <i class="fas fa-thumbs-up">
+                                <span>4</span>
+                            </i>
+                        </button>
+                        <button class="btn">
+                            <i class="fas fa-thumbs-down">
+                            </i>
+                        </button>
+                        <a href="post.html" class="btn btn-primary">Discussion</a>
+                    </div>
+                </div>
+                
+                <div class="posts">
+                    <div class="post bg-white my-1">
+                        <a href="profile.html">
+                            <img class="round-img" src="img/profile.jpg" alt="">
+                            <h4>Woo Joon Han</h4>
+                        </a>
+                        <div>
+                            <p class="my-1">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rerum eius aperiam nemo voluptatum officia, eligendi quas fugiat ullam dolorum obcaecati laborum vel ducimus commodi numquam suscipit accusamus nobis fugit!
+                            </p>
+                            <button class="btn">
+                                <i class="fas fa-thumbs-up">
+                                    <span>4</span>
+                                </i>
+                            </button>
+                            <button class="btn">
+                                <i class="fas fa-thumbs-down">
+                                </i>
+                            </button>
+                            <a href="post.html" class="btn btn-primary">Discussion</a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+    </section>
+</body>
+</html>
